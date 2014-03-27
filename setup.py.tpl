@@ -259,9 +259,9 @@ setup_dict = dict(
     cmdclass={'test': TestAllCommand},
     zip_safe=False,  # don't use eggs
     entry_points={
-        'console_scripts': [
-            '${package}_cli = ${package}.main:entry_point'
-        ],
+        #'console_scripts': [
+        #    '${package}_cli = ${package}.main:entry_point'
+        #],
         # if you have a gui, use this
         # 'gui_scripts': [
         #     '${package}_gui = ${package}.gui:entry_point'
